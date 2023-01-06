@@ -1,3 +1,4 @@
+/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@300&display=swap');
 
 * {
@@ -6,8 +7,24 @@
     border: none;
 }
 
+/* Structural css */
+
 body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
-    color: #0d0d0d;
+    color: #3b4b59;
+}
+
+/* headings and logos */
+
+h2 {
+    font-family: Nunito, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #0d0d0d
+}
+
+#logo {
+    float: left;
+    font-size: 480%;
 }
