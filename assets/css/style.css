@@ -73,7 +73,7 @@ nav{
 #hero-image {
     height: 1000px;
     width: 100%;
-    background: url(../images/hero-image.jpg) no-repeat center center;
+    background: url('../images/hero-image.jpg') no-repeat center center;
 
 /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -148,4 +148,22 @@ hr {
     padding-top: 30px;
     width: 50%;
     float: right;
+}
+
+#circle-container {
+    width: 1000px;
+    height: 1000px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    float: right;
+    margin-right: 10px;
+}
+
+#circle-cover-bg {
+    background: url('../images/good-vibes-frame.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }
